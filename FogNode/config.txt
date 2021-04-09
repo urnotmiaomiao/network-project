@@ -1,0 +1,17 @@
+# Fog node Configuration file 
+# NumberOfNodes
+5
+
+# nodeID  hostName TCPPort UDPPort MaxResponseTime cloudNode TCPPort
+1         dc12     5555    5001    15             dc10      8890
+2         dc13     5556    5002    15             dc10      8890
+3         dc14     5555    5003    8             dc10      8890
+4         dc18     5557    5004    15             dc10      8890
+5         dc16     5555    5005    12             dc10      8890
+# neighbors
+1 2 4          #       
+2 1 4    #     
+3 5        #    
+4 1 2      #       
+5 3        #  
+

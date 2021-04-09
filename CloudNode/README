@@ -1,0 +1,13 @@
+Language: JAVA 1.8
+Platform: Eclipse
+
+How to run: 
+	1. Make sure the cloudnode.jar is placed in the same folder with /config/config.properties
+	2. cd the folder of the folder where you placed jar file and config folder, run the command "java -jar cloudnode.jar"
+
+In config.properties:
+	1. my_ip: save this cloud node's ip address
+	2. my_port: save this cloud node's TCP port number that is used to receive Fog Node requests
+	
+Group: Tianyi liu, Miao Miao
+Class: CS6390.001 Advanced Computer Networks
